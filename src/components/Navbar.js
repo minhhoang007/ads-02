@@ -30,7 +30,7 @@ const Navbar = () => {
             activeClassName="active-link"
             onClick={() => setShow(false)}
           >
-            recipes
+            Blogs
           </Link>
           <Link
             to="/tags"
@@ -50,7 +50,7 @@ const Navbar = () => {
           </Link>
           <div className="nav-link contact-link">
             <Link to="/contact" className="btn" onClick={() => setShow(false)}>
-              contact
+              Liên Hệ
             </Link>
           </div>
         </div>

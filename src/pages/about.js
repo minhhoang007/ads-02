@@ -26,7 +26,7 @@ const About = ({
               retro.
             </p>
             <Link to="/contact" className="btn">
-              contact
+              Liên Hệ
             </Link>
           </article>
           <StaticImage

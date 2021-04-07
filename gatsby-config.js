@@ -11,7 +11,8 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Quảng cáo lào cai",
-    description: "Thiết kế in ấn sản phẩm quảng cáo và các chiến dịch marketing",
+    description:
+      "Thiết kế in ấn sản phẩm quảng cáo và các chiến dịch marketing",
     author: "@minhhoang",
     person: { name: "john", age: 32 },
     simpleData: ["item 1", "item 2"],
@@ -40,6 +41,7 @@ module.exports = {
         accessToken: `4VBBSP0s27AQdFxtfkY5l_by8qlysI3ZJv5mQ4eUmKE`,
       },
     },
+
     {
       resolve: `gatsby-plugin-webfonts`,
       options: {
@@ -57,6 +59,7 @@ module.exports = {
         },
       },
     },
+    
     `gatsby-plugin-react-helmet`,
   ],
 }
