@@ -1,0 +1,6 @@
+.logoImg {
+  width: 50px !important;
+  box-shadow: 2px 2px cadetblue;
+  border: 2px solid gainsboro;
+  border-radius: 5px;
+}
