@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Link, graphql } from "gatsby"
 import RecipesList from "../components/RecipesList"
 import SEO from "../components/SEO"
+import Carousel from "../components/Carousel"
 
 const About = ({
   data: {
@@ -14,6 +15,7 @@ const About = ({
     <Layout>
       <SEO title="About" />
       <main className="page">
+        <Carousel />
         <section className="about-page">
           <article>
             <h2>I'm baby coloring book poke taxidermy</h2>

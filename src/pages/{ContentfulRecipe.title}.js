@@ -47,7 +47,7 @@ const RecipeTemplate = ({ data }) => {
                 </article>
                 <article>
                   <BsPeople />
-                  <h5>serving</h5>
+                  <h5>Số lượng</h5>
                   <p>{servings} </p>
                 </article>
               </div>

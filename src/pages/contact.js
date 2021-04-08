@@ -12,7 +12,7 @@ const Contact = ({ data }) => {
       <main className="page">
         <section className="contact-page">
           <article className="contact-info">
-            <h3>Want To Get In Touch?</h3>
+            <h3>Bạn muốn tạo ý tưởng riêng?</h3>
             <p>
               Four dollar toast biodiesel plaid salvia actually pickled banjo
               bespoke mlkshk intelligentsia edison bulb synth.
@@ -26,15 +26,15 @@ const Contact = ({ data }) => {
           <article>
             <form className="form contact-form">
               <div className="form-row">
-                <label htmlFor="name">your name</label>
+                <label htmlFor="name">Họ & Tên</label>
                 <input type="text" name="name" id="name" />
               </div>
               <div className="form-row">
-                <label htmlFor="email">your email</label>
-                <input type="text" name="email" id="email" />
+                <label htmlFor="phone">Số Điện Thoại</label>
+                <input type="number" name="phone" id="phone" />
               </div>
               <div className="form-row">
-                <label htmlFor="message">message</label>
+                <label htmlFor="message">Tin Nhắn</label>
                 <textarea name="message" id="message"></textarea>
               </div>
               <button type="submit" className="btn block">
