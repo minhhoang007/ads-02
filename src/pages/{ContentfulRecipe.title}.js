@@ -37,12 +37,12 @@ const RecipeTemplate = ({ data }) => {
               <div className="recipe-icons">
                 <article>
                   <BsClock />
-                  <h5>prep time</h5>
+                  <h5>thiết Kế</h5>
                   <p>{prepTime} min.</p>
                 </article>
                 <article>
                   <BsClockHistory />
-                  <h5>cook time</h5>
+                  <h5>Thi Công</h5>
                   <p>{cookTime} min.</p>
                 </article>
                 <article>
@@ -69,12 +69,12 @@ const RecipeTemplate = ({ data }) => {
           {/* rest of the content */}
           <section className="recipe-content">
             <article>
-              <h4>instructions</h4>
+              <h4> Quy Trình Chi Tiết</h4>
               {instructions.map((item, index) => {
                 return (
                   <div key={index} className="single-instruction">
                     <header>
-                      <p>step {index + 1}</p>
+                      <p>Bước {index + 1}</p>
                       <div></div>
                     </header>
                     <p>{item}</p>
@@ -84,7 +84,7 @@ const RecipeTemplate = ({ data }) => {
             </article>
             <article className="second-column">
               <div>
-                <h4>ingredients</h4>
+                <h4>Vật liệu</h4>
                 {ingredients.map((item, index) => {
                   return (
                     <p key={index} className="single-ingredient">
@@ -94,7 +94,7 @@ const RecipeTemplate = ({ data }) => {
                 })}
               </div>
               <div>
-                <h4>tools</h4>
+                <h4>Công Cụ</h4>
                 {tools.map((item, index) => {
                   return (
                     <p key={index} className="single-tool">
